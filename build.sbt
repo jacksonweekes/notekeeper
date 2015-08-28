@@ -10,7 +10,8 @@ libraryDependencies ++= Seq( javaJdbc , cache , javaWs , evolutions )
 
 libraryDependencies ++= Seq(
   "org.mindrot" % "jbcrypt" % "0.3m",
-  "org.mockito" % "mockito-core" % "1.8.5"
+  "org.mockito" % "mockito-core" % "1.8.5",
+  "org.postgresql" % "postgresql" % "9.4-1201-jdbc41"
 )
 
 routesGenerator := InjectedRoutesGenerator
