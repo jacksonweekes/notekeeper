@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad8ab2a8-8927-47d9-a2ee-eca8fb68c537" name="Default" comment="" />
+    <list default="true" id="ad8ab2a8-8927-47d9-a2ee-eca8fb68c537" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="invoicer.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -677,15 +679,15 @@
       <created>1440736363124</created>
       <option name="number" value="Default" />
       <updated>1440736363124</updated>
-      <workItem from="1440736368040" duration="7077000" />
+      <workItem from="1440736368040" duration="7101000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7077000" />
+    <option name="totallyTimeSpent" value="7101000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1368" height="768" extended-state="6" />
+    <frame x="-1" y="0" width="1368" height="768" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
