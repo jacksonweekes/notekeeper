@@ -1,0 +1,18 @@
+@(notes: List[models.Note])
+
+<div class="col-md-6">
+   @if(notes == null) {
+      <p>
+         There are no notes to display.
+      </p>
+   } else {
+      <ul class="post">
+      @for(note <- notes) {
+         <li>
+            <span>@note.getCreateTime.toString</span><br />@note.getMessage
+         </li>
+      }
+      </ul>
+   }
+
+</div>

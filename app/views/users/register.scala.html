@@ -1,0 +1,11 @@
+@(registerForm: Form[views.forms.RegisterForm])
+
+@main("Register") {
+
+   <div class="well">
+   @helper.form(routes.UserController.createUser()) {
+      @_fieldset(registerForm)
+   }
+   </div>
+
+}

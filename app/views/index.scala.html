@@ -1,0 +1,30 @@
+@(message: String)
+
+@main("Notekeeper") {
+
+   <div class="center jumbotron">
+      <h1>Notekeeper</h1>
+
+      <p>
+         Notekeeper is a simple application built in Java on the
+         <a href="https://playframework.com/">Play! Framework</a>. It was created by
+         <a href="https://www.linkedin.com/in/jacksonweekes">Jackson Cleary</a>.
+         The source can be found on
+         <a href="https://github.com/jacksonweekes/notekeeper">github.</a>
+      </p>.
+      <p>
+         While you are welcome to use it to store notes, it is really just intended as a
+         simple example application to demonstrate basic session management(register, login/logout
+         and remote session management). When new sessions are created, the application also
+         calls to the ip-api.com json api to discover the approximate location of the ip address.
+      </p>
+      <p>
+         It also demonstrates the use of some Play! features such as form validation and submission,
+         a custom authenticator as well as the use of Ebean to communicate with a relational database.
+         There are also a number of JUnit tests included in the github repository.
+         Anyone is free to use the source for this application as the basis of their own project. If
+         you would like to contact me, send me a message on twitter @@jacksonweekes.
+      </p>
+      <a href='@routes.UserController.newUser()' class="btn btn-lg btn-primary">Sign up now!</a>
+   </div>
+}

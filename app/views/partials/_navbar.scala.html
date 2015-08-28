@@ -1,0 +1,22 @@
+@()
+
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="container">
+        <a href="@routes.StaticPageController.index()" id="logo">notekeeper</a>
+        @if(User.findUserFromSessionID(session.get(models.Session.SESSION_VAR)) != null) {
+            <nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href='@routes.SessionController.deleteSession()'>Logout</a></li>
+                </ul>
+            </nav>
+        } else {
+            <nav>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href='@routes.UserController.newUser()'>Register</a></li>
+                    <li><a href='@routes.SessionController.newSession()'>Login</a></li>
+                </ul>
+            </nav>
+        }
+
+    </div>
+</header>

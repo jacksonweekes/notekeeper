@@ -1,0 +1,9 @@
+@(loginForm: Form[views.forms.LoginForm])
+
+@main("Login") {
+   <div class="well">
+      @helper.form(routes.SessionController.createSession()) {
+         @_fieldset(loginForm)
+      }
+   </div>
+}

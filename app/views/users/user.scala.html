@@ -1,0 +1,20 @@
+@(user: models.User)
+
+@main(user.getEmail) {
+   <aside class="col-md-3">
+      <section class="user_info">
+         <h1>@user.getName</h1>
+         <h2>@user.getEmail</h2>
+
+         <h3>Current Sessions</h3>
+         @views.html.sessions.session_list(user)
+      </section>
+   </aside>
+   <form action="@routes.NoteController.createNote()" method="post">
+      <div class="form-controller col-md-6">
+         <textarea rows="3" id="txtArea" name="message">Tell us your thoughts...</textarea>
+         <button type="submit" class="btn btn-primary">Post</button>
+      </div>
+   </form>
+   @views.html.users.note_list(user.getNotes)
+}

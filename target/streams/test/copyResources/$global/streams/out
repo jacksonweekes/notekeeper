@@ -1,0 +1,13 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/javascripts,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/javascripts)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/stylesheets,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/stylesheets)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/images,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/images)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/lib,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/lib)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/javascripts/jquery-1.9.0.min.js,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/javascripts/jquery-1.9.0.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/stylesheets/main.css,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/stylesheets/main.css)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/stylesheets/main.scss,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/stylesheets/main.scss)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/stylesheets/main.css.map,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/stylesheets/main.css.map)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/stylesheets/_bootstrap-variables.sass,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/stylesheets/_bootstrap-variables.sass)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/images/favicon.png,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/home/jackson/workspace/notekeeper/target/web/public/test/public/lib/notekeeper,/home/jackson/workspace/notekeeper/target/scala-2.11/test-classes/public/lib/notekeeper)[0m

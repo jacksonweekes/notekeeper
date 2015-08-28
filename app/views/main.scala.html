@@ -1,0 +1,22 @@
+@(title: String)(content: Html)
+   @import play.mvc.Http.Context.Implicit.flash
+
+<!DOCTYPE html>
+
+   <html>
+      @partials._header(title)
+   <body>
+      @partials._navbar()
+   <div class="container">
+      @if(!flash.isEmpty) {
+         <div id="mainflash">
+         @flash().map { case (k, v) =>
+         <div class=@k>@v</div>
+         }
+         </div>
+      }
+      @content
+      @partials._footer()
+   </div>
+   </body>
+   </html>

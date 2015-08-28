@@ -1,0 +1,28 @@
+@(loginForm: Form[views.forms.LoginForm])
+
+@import views.html.forms.items._
+
+<fieldset>
+   <div id="legend">
+      <legend>Login</legend>
+   </div>
+
+   <!-- email -->
+   @text(loginForm("email"), "Email", "My Email", "Please enter your email address.")
+
+   <!-- password -->
+   @password(loginForm("password"), "Password", "Password", "Please enter your password.")
+
+   @if(loginForm.hasGlobalErrors) {
+      <p class="error">
+         @loginForm.globalError.message
+      </p>
+   }
+
+   <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+         <button id="submit" type="submit" value="Submit" class="btn btn-primary">Submit</button>
+         <button id="cancel" class="btn cancel">Cancel</button>
+      </div>
+   </div>
+</fieldset>

@@ -1,0 +1,27 @@
+@(registerForm: Form[views.forms.RegisterForm])
+
+@import views.html.forms.items._
+
+<fieldset>
+   <div id="legend">
+      <legend>Register</legend>
+   </div>
+
+      <!-- Name -->
+   @text(registerForm("name"), "Name", "My Name", "Please enter your full name. (required)")
+
+      <!-- Email -->
+   @text(registerForm("email"), "Email", "My Email", "Please enter your email address. (required)")
+
+      <!-- Password -->
+   @password(registerForm("password"), "Password", "Password", "Please choose a password. (min 8 characters)")
+
+   @password(registerForm("passwordConfirmation"), "Password Confirmation", "Password Confirmation", "Reenter your password")
+
+   <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+         <button id="submit" type="submit" value="Submit" class="btn btn-primary">Submit</button>
+         <button id="cancel" class="btn cancel">Cancel</button>
+      </div>
+   </div>
+</fieldset>
